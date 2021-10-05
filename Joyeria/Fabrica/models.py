@@ -24,7 +24,14 @@ class ProductoTerminado (models.Model):
     render = models.FloatField(default=0)
 
     def __str__(self):
+<<<<<<< HEAD
         return self.tipoJoya + " - "+ self.id_ordenCompra.__str__()
+=======
+        return self.tipoJoya
+    
+
+
+>>>>>>> adec70ae05e3970ec575c2d73e54f1b8934e3bd0
 
 
 class CuentaCobro (models.Model):
@@ -37,4 +44,10 @@ class CuentaCobro (models.Model):
     render = models.FloatField(default=0)
 
     def __str__(self): 
+<<<<<<< HEAD
         return self.precio.__str__()
+=======
+        return self.precio
+    
+
+>>>>>>> adec70ae05e3970ec575c2d73e54f1b8934e3bd0
