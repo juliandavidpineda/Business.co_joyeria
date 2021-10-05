@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'CitasVentas',
-    'Fabrica'
+    'Fabrica',
+    'ReporteGerencia'
 ]
 
 REST_FRAMEWORK = {
